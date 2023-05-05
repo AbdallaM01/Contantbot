@@ -1,0 +1,61 @@
+{
+
+    "name": "Contact-bot",
+
+    "description": "bot",
+
+    "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
+
+    "keywords": ["telegram", "auto-filter"],
+
+    "stack": "container",
+
+    "website": "https://github.com/AbdallaM01/Contantbot",
+
+    "repository": "https://github.com/AbdallaM01/Contantbot",
+
+    "env": {
+
+        "TOKEN": {
+
+            "description": "True/False if your server is web support required? the value is True else False",
+
+            "required": true
+
+        }, 
+
+        "STRING": {
+
+            "description": "Your bot token.",
+
+            "required": true
+
+        },
+
+        "HASH": {
+
+            "description": "Get this value from https://my.telegram.org",
+
+            "required": true
+
+        },
+
+        "ID": {
+
+            "description": "Get this value from https://my.telegram.org",
+
+            "required": true
+
+       }
+    },
+
+    "buildpacks":
+
+        [
+
+            {"url": "heroku/python"}
+
+        ]      
+
+}       
+
