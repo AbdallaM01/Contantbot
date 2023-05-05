@@ -1,0 +1,46 @@
+{
+
+    "name": "Save-Restricted-Bot",
+
+    "description": "bot",
+
+    "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
+
+    "keywords": ["telegram", "ll"],
+
+    "stack": "container",
+
+    "website": "https://github.com/bipinkrish/Save-Restricted-Bot",
+
+    "repository": "https://github.com/bipinkrish/Save-Restricted-Bot",
+
+    "env": {
+
+        "WEBHOOK": {
+
+            "description": "True/False if your server is web support required? the value is True else False",
+
+            "required": true
+        },
+
+        "P_TTI_SHOW_OFF": { 
+
+            "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
+
+            "value": "True",
+
+            "required": false
+
+        }
+
+    },
+
+    "buildpacks":
+
+        [
+
+            {"url": "heroku/python"}
+
+        ]      
+
+}
